@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Film_Bucket</title>
-</head>
-<body>
-    
-    <h1>MO</h1>
+  </head>
 
-</body>
+  <header>
+    <nav>
+      <ul>
+        <li><a class="active-page" href="./index.html"> Home </a></li>
+        <li><a href="#"> Placeholder </a></li>
+        <li><a href="#"> Placeholder </a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <body>
+    <main>
+      <section class="film-selection">
+        <form>
+          <label for="film-name"> Film name: </label>
+          <input type="text" name="film-name" id="film-name" required />
+
+          <label for="film-desc"> Film description: </label>
+          <textarea
+            name="film-desc"
+            id="film-desc"
+            cols="30"
+            rows="10"
+          ></textarea>
+
+          <button type="submit">Add film</button>
+        </form>
+      </section>
+
+      <section>
+        <div class="movie-list">
+          <h2>Your Movie List</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody id="movie-table-body">
+              <!-- movie list will be displayed here -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

@@ -1,0 +1,19 @@
+{
+  "name": "film_bucket",
+  "version": "1.0.0",
+  "description": "uni project for SE_19",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/froaven/Film_Bucket.git"
+  },
+  "author": "Kristian Simeonov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/froaven/Film_Bucket/issues"
+  },
+  "homepage": "https://github.com/froaven/Film_Bucket#readme"
+}
